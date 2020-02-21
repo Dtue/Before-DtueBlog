@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Nangong';
+    src: url('../fonts/HYNanGongTiJ.ttf') format('truetype');
+}@font-face {
+    font-family: 'MarkPro';
+    src: url('../fonts/MarkPro.otf') format('opentype');
+}
+
+nav{
+    background-image: url(../images/header01.jpg);
+    background-position: -150px -50px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100vw;
+    font-family: "MarkPro";
+}
+
+.navInto{
+    padding: 20px 80px;
+}
+
+hr{
+    height:1px;
+    border:none;
+    border-top:1px solid #fff;
+}
+
+.navUl{
+    list-style: none;
+    overflow: hidden;
+}
+
+.navList{
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    float: left;
+}
+
+.navInto a p{
+    color: #fff;
+    font-size: 50px;
+}
+
+.navInto a{
+    text-decoration: none;
+}
+
+.navInto a p:hover{
+    color: lightgray;
+}
+
+.navA{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navA:hover{
+    color: lightgray;
+}
+
+.bigRow{
+    width: 100vw;
+}
+
+.rowBox{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.boxImg,.bigRow{
+    display: flex;
+}
+
+.rowImg{
+    border-radius: 10px;
+}
+
+.viewBox{
+    display: flex;
+    width: 80vw;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /*background-color: #ffeaa7;*/
+}
+
+.rowTitle{
+    font-size: 20px;
+    font-family: "MarkPro";
+}
+
+.rowContent{
+    font-size: 10px;
+    font-family: 'Nangong';
+    font-family: "MarkPro";
+}
+
+footer{
+    height: 50px;
+    width: 100vw;
+    background-image: url(../images/poster03.jpg);
+    background-size: auto 100vw;
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    font-family: "MarkPro";
+}
+
+footer p{
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+}
+
+article{
+    font-family: "MarkPro";
+    width: 50vw;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+article p{
+    font-size: 15px;
+}article p:nth-child(1){
+    font-size: 30px;
+    margin-bottom: 30px;
+}
