@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+html { filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); }
 
 @font-face {
     font-family: 'Nangong';
