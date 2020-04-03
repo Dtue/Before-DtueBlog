@@ -3,6 +3,9 @@
     padding: 0;
 }
 html { filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); }
+HTML {
+    FILTER: GRAY;
+}
 
 @font-face {
     font-family: 'Nangong';
