@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
 }
-html { filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); }
-HTML {
-    FILTER: GRAY;
-}
+.allGray {
+-webkit-filter: grayscale(100%);
+filter: progid:DXImageTransform.Microsoft.BasicImage(graysale=1);
 
 @font-face {
     font-family: 'Nangong';
